@@ -1,0 +1,546 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		941075712614BE96006F290D /* EKGextractor WatchKit App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 941075702614BE96006F290D /* EKGextractor WatchKit App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		941075772614BE96006F290D /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 941075752614BE96006F290D /* Interface.storyboard */; };
+		941075792614BE99006F290D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 941075782614BE99006F290D /* Assets.xcassets */; };
+		941075802614BE99006F290D /* EKGextractor WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 9410757F2614BE99006F290D /* EKGextractor WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		941075852614BE99006F290D /* InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 941075842614BE99006F290D /* InterfaceController.swift */; };
+		941075872614BE99006F290D /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 941075862614BE99006F290D /* ExtensionDelegate.swift */; };
+		941075892614BE9A006F290D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 941075882614BE9A006F290D /* Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		941075722614BE96006F290D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 941075662614BE96006F290D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9410756F2614BE96006F290D;
+			remoteInfo = "EKGextractor WatchKit App";
+		};
+		941075812614BE99006F290D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 941075662614BE96006F290D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9410757E2614BE99006F290D;
+			remoteInfo = "EKGextractor WatchKit Extension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		941075902614BE9A006F290D /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				941075802614BE99006F290D /* EKGextractor WatchKit Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		941075942614BE9A006F290D /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				941075712614BE96006F290D /* EKGextractor WatchKit App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		9410756C2614BE96006F290D /* EKGextractor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EKGextractor.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		941075702614BE96006F290D /* EKGextractor WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "EKGextractor WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		941075762614BE96006F290D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
+		941075782614BE99006F290D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9410757A2614BE99006F290D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9410757F2614BE99006F290D /* EKGextractor WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "EKGextractor WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		941075842614BE99006F290D /* InterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterfaceController.swift; sourceTree = "<group>"; };
+		941075862614BE99006F290D /* ExtensionDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionDelegate.swift; sourceTree = "<group>"; };
+		941075882614BE9A006F290D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9410758A2614BE9A006F290D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9410757C2614BE99006F290D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		941075652614BE96006F290D = {
+			isa = PBXGroup;
+			children = (
+				941075742614BE96006F290D /* EKGextractor WatchKit App */,
+				941075832614BE99006F290D /* EKGextractor WatchKit Extension */,
+				9410756D2614BE96006F290D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9410756D2614BE96006F290D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9410756C2614BE96006F290D /* EKGextractor.app */,
+				941075702614BE96006F290D /* EKGextractor WatchKit App.app */,
+				9410757F2614BE99006F290D /* EKGextractor WatchKit Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		941075742614BE96006F290D /* EKGextractor WatchKit App */ = {
+			isa = PBXGroup;
+			children = (
+				941075752614BE96006F290D /* Interface.storyboard */,
+				941075782614BE99006F290D /* Assets.xcassets */,
+				9410757A2614BE99006F290D /* Info.plist */,
+			);
+			path = "EKGextractor WatchKit App";
+			sourceTree = "<group>";
+		};
+		941075832614BE99006F290D /* EKGextractor WatchKit Extension */ = {
+			isa = PBXGroup;
+			children = (
+				941075842614BE99006F290D /* InterfaceController.swift */,
+				941075862614BE99006F290D /* ExtensionDelegate.swift */,
+				941075882614BE9A006F290D /* Assets.xcassets */,
+				9410758A2614BE9A006F290D /* Info.plist */,
+			);
+			path = "EKGextractor WatchKit Extension";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9410756B2614BE96006F290D /* EKGextractor */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 941075952614BE9A006F290D /* Build configuration list for PBXNativeTarget "EKGextractor" */;
+			buildPhases = (
+				9410756A2614BE96006F290D /* Resources */,
+				941075942614BE9A006F290D /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				941075732614BE96006F290D /* PBXTargetDependency */,
+			);
+			name = EKGextractor;
+			productName = EKGextractor;
+			productReference = 9410756C2614BE96006F290D /* EKGextractor.app */;
+			productType = "com.apple.product-type.application.watchapp2-container";
+		};
+		9410756F2614BE96006F290D /* EKGextractor WatchKit App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 941075912614BE9A006F290D /* Build configuration list for PBXNativeTarget "EKGextractor WatchKit App" */;
+			buildPhases = (
+				9410756E2614BE96006F290D /* Resources */,
+				941075902614BE9A006F290D /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				941075822614BE99006F290D /* PBXTargetDependency */,
+			);
+			name = "EKGextractor WatchKit App";
+			productName = "EKGextractor WatchKit App";
+			productReference = 941075702614BE96006F290D /* EKGextractor WatchKit App.app */;
+			productType = "com.apple.product-type.application.watchapp2";
+		};
+		9410757E2614BE99006F290D /* EKGextractor WatchKit Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9410758D2614BE9A006F290D /* Build configuration list for PBXNativeTarget "EKGextractor WatchKit Extension" */;
+			buildPhases = (
+				9410757B2614BE99006F290D /* Sources */,
+				9410757C2614BE99006F290D /* Frameworks */,
+				9410757D2614BE99006F290D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "EKGextractor WatchKit Extension";
+			productName = "EKGextractor WatchKit Extension";
+			productReference = 9410757F2614BE99006F290D /* EKGextractor WatchKit Extension.appex */;
+			productType = "com.apple.product-type.watchkit2-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		941075662614BE96006F290D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1160;
+				LastUpgradeCheck = 1160;
+				ORGANIZATIONNAME = "Robert Horrion";
+				TargetAttributes = {
+					9410756B2614BE96006F290D = {
+						CreatedOnToolsVersion = 11.6;
+					};
+					9410756F2614BE96006F290D = {
+						CreatedOnToolsVersion = 11.6;
+					};
+					9410757E2614BE99006F290D = {
+						CreatedOnToolsVersion = 11.6;
+					};
+				};
+			};
+			buildConfigurationList = 941075692614BE96006F290D /* Build configuration list for PBXProject "EKGextractor" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 941075652614BE96006F290D;
+			productRefGroup = 9410756D2614BE96006F290D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9410756B2614BE96006F290D /* EKGextractor */,
+				9410756F2614BE96006F290D /* EKGextractor WatchKit App */,
+				9410757E2614BE99006F290D /* EKGextractor WatchKit Extension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9410756A2614BE96006F290D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9410756E2614BE96006F290D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				941075792614BE99006F290D /* Assets.xcassets in Resources */,
+				941075772614BE96006F290D /* Interface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9410757D2614BE99006F290D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				941075892614BE9A006F290D /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9410757B2614BE99006F290D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				941075872614BE99006F290D /* ExtensionDelegate.swift in Sources */,
+				941075852614BE99006F290D /* InterfaceController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		941075732614BE96006F290D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9410756F2614BE96006F290D /* EKGextractor WatchKit App */;
+			targetProxy = 941075722614BE96006F290D /* PBXContainerItemProxy */;
+		};
+		941075822614BE99006F290D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9410757E2614BE99006F290D /* EKGextractor WatchKit Extension */;
+			targetProxy = 941075812614BE99006F290D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		941075752614BE96006F290D /* Interface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				941075762614BE96006F290D /* Base */,
+			);
+			name = Interface.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9410758B2614BE9A006F290D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		9410758C2614BE9A006F290D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9410758E2614BE9A006F290D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Q2CS3FBVAU;
+				INFOPLIST_FILE = "EKGextractor WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.roberthorrion.EKGextractor.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 6.2;
+			};
+			name = Debug;
+		};
+		9410758F2614BE9A006F290D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Q2CS3FBVAU;
+				INFOPLIST_FILE = "EKGextractor WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.roberthorrion.EKGextractor.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 6.2;
+			};
+			name = Release;
+		};
+		941075922614BE9A006F290D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Q2CS3FBVAU;
+				IBSC_MODULE = EKGextractor_WatchKit_Extension;
+				INFOPLIST_FILE = "EKGextractor WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = com.roberthorrion.EKGextractor.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 6.2;
+			};
+			name = Debug;
+		};
+		941075932614BE9A006F290D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Q2CS3FBVAU;
+				IBSC_MODULE = EKGextractor_WatchKit_Extension;
+				INFOPLIST_FILE = "EKGextractor WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = com.roberthorrion.EKGextractor.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 6.2;
+			};
+			name = Release;
+		};
+		941075962614BE9A006F290D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Q2CS3FBVAU;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.roberthorrion.EKGextractor;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		941075972614BE9A006F290D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Q2CS3FBVAU;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.roberthorrion.EKGextractor;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		941075692614BE96006F290D /* Build configuration list for PBXProject "EKGextractor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9410758B2614BE9A006F290D /* Debug */,
+				9410758C2614BE9A006F290D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9410758D2614BE9A006F290D /* Build configuration list for PBXNativeTarget "EKGextractor WatchKit Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9410758E2614BE9A006F290D /* Debug */,
+				9410758F2614BE9A006F290D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		941075912614BE9A006F290D /* Build configuration list for PBXNativeTarget "EKGextractor WatchKit App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				941075922614BE9A006F290D /* Debug */,
+				941075932614BE9A006F290D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		941075952614BE9A006F290D /* Build configuration list for PBXNativeTarget "EKGextractor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				941075962614BE9A006F290D /* Debug */,
+				941075972614BE9A006F290D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 941075662614BE96006F290D /* Project object */;
+}
